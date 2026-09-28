@@ -63,7 +63,10 @@ export const content = {
     },
   ],
   contacts: {
-    email: null, // TODO: confirm
+    email: {
+      label: 'Orazmuradova150987@gmail.com',
+      href: 'mailto:Orazmuradova150987@gmail.com',
+    },
     phone: {
       label: '+380 96 844 6169',
       href: 'tel:+380968446169',

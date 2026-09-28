@@ -12,8 +12,8 @@ export function Contacts() {
   const availableContacts = Object.entries(content.contacts).filter(([, value]) => value)
 
   return (
-    <footer className="contacts" id="contacts" aria-labelledby="contacts-title">
-      <div className="page-shell">
+    <footer className="contacts" aria-labelledby="contacts-title">
+      <div className="page-shell" id="contacts">
         <Reveal className="section-kicker section-kicker--light">07 · Контакты</Reveal>
         <div className="contacts__grid">
           <Reveal>

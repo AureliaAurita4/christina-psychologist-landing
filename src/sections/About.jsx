@@ -3,8 +3,8 @@ import { content } from '../data/content.js'
 
 export function About() {
   return (
-    <section className="about section" id="about" aria-labelledby="about-title">
-      <div className="page-shell">
+    <section className="about section" aria-labelledby="about-title">
+      <div className="page-shell" id="about">
         <Reveal className="section-kicker">02 · Обо мне</Reveal>
         <div className="about__grid">
           <Reveal as="header" className="about__heading">

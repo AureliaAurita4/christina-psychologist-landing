@@ -3,8 +3,8 @@ import { content } from '../data/content.js'
 
 export function Testimonials() {
   return (
-    <section className="testimonials section" id="testimonials" aria-labelledby="testimonials-title">
-      <div className="page-shell">
+    <section className="testimonials section" aria-labelledby="testimonials-title">
+      <div className="page-shell" id="testimonials">
         <Reveal className="section-kicker">05 · Отзывы</Reveal>
 
         <div className="testimonials__intro">

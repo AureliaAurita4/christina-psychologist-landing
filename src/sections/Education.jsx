@@ -30,8 +30,8 @@ export function Education() {
 
   return (
     <>
-      <section className="education section" id="education" aria-labelledby="education-title">
-        <div className="page-shell">
+      <section className="education section" aria-labelledby="education-title">
+        <div className="page-shell" id="education">
           <Reveal className="section-kicker">04 · Образование и опыт</Reveal>
           <div className="education__grid">
             <div className="education__copy">

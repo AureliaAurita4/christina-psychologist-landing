@@ -3,9 +3,9 @@ import { content } from '../data/content.js'
 
 export function FocusAreas() {
   return (
-    <section className="focus section section--dark" id="focus" aria-labelledby="focus-title">
+    <section className="focus section section--dark" aria-labelledby="focus-title">
       <div className="focus__orb" aria-hidden="true" />
-      <div className="page-shell">
+      <div className="page-shell" id="focus">
         <Reveal className="section-kicker section-kicker--light">03 · С чем я работаю</Reveal>
         <div className="focus__intro">
           <Reveal as="header">
