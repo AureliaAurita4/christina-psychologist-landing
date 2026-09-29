@@ -3,7 +3,7 @@ export const content = {
   shortName: 'Кристина',
   profession: 'Психолог-консультант · телесно-ориентированный терапевт',
   tagline: 'Построй жизнь, которую глубоко желаешь',
-  experienceYears: 8, // TODO: confirm
+  experienceYears: 12,
   personalTherapyHours: 170, // TODO: confirm
   heroIntro:
     'Внимательная работа с тем, что происходит внутри: эмоциями, телесными процессами, отношениями и опорой на себя.',
